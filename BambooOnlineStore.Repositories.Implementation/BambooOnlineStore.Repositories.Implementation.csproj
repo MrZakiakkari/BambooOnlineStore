@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BambooOnlineStore.Repositories\BambooOnlineStore.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>
