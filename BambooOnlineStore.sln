@@ -5,24 +5,26 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BambooOnlineStore", "BambooOnlineStore\BambooOnlineStore.csproj", "{789CFDDE-A31B-4001-AED2-3AF1BB481F84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooOnlineStore.Repositories", "BambooOnlineStore.Repositories\BambooOnlineStore.Repositories.csproj", "{C5F73E86-197D-4BF8-A30B-6ACE05152C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BambooOnlineStore.Repositories", "BambooOnlineStore.Repositories\BambooOnlineStore.Repositories.csproj", "{C5F73E86-197D-4BF8-A30B-6ACE05152C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooOnlineStore.Repositories.Implementation", "BambooOnlineStore.Repositories.Implementation\BambooOnlineStore.Repositories.Implementation.csproj", "{2A7D5561-9FA2-4F96-9BBC-149E572D5A60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BambooOnlineStore.Repositories.Implementation", "BambooOnlineStore.Repositories.Implementation\BambooOnlineStore.Repositories.Implementation.csproj", "{2A7D5561-9FA2-4F96-9BBC-149E572D5A60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooOnlineStore.Repositories.MySQL", "BambooOnlineStore.Repositories.MySQL\BambooOnlineStore.Repositories.MySQL.csproj", "{6C96998C-E899-484B-91C2-59EF6CDC4D6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BambooOnlineStore.Repositories.MySQL", "BambooOnlineStore.Repositories.MySQL\BambooOnlineStore.Repositories.MySQL.csproj", "{6C96998C-E899-484B-91C2-59EF6CDC4D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooOnlineStore.Repositories.SQLite", "BambooOnlineStore.Repositories.SQLite\BambooOnlineStore.Repositories.SQLite.csproj", "{65E86EC5-9255-4F00-917C-5C857F55A4A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BambooOnlineStore.Repositories.SQLite", "BambooOnlineStore.Repositories.SQLite\BambooOnlineStore.Repositories.SQLite.csproj", "{65E86EC5-9255-4F00-917C-5C857F55A4A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooOnlineStore.Repositories.SQLServer", "BambooOnlineStore.Repositories.SQLServer\BambooOnlineStore.Repositories.SQLServer.csproj", "{0AD26595-004D-47C0-A6EF-DFECB321DEAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BambooOnlineStore.Repositories.SQLServer", "BambooOnlineStore.Repositories.SQLServer\BambooOnlineStore.Repositories.SQLServer.csproj", "{0AD26595-004D-47C0-A6EF-DFECB321DEAE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{EAC862F4-5627-4E6B-8100-D43EA25086AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooOnlineStore.Repositories.UnitTests", "BambooOnlineStore.Repositories.UnitTests\BambooOnlineStore.Repositories.UnitTests.csproj", "{53D6010E-5EFC-478B-8593-8A91BAE25520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BambooOnlineStore.Repositories.UnitTests", "BambooOnlineStore.Repositories.UnitTests\BambooOnlineStore.Repositories.UnitTests.csproj", "{53D6010E-5EFC-478B-8593-8A91BAE25520}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5160713-4215-40D0-A5C5-9284691B405F}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooOnlineStore.Web", "BambooOnlineStore.Web\BambooOnlineStore.Web.csproj", "{DE760EBB-D47F-4D60-B6B7-88A99241A5A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +60,10 @@ Global
 		{53D6010E-5EFC-478B-8593-8A91BAE25520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53D6010E-5EFC-478B-8593-8A91BAE25520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53D6010E-5EFC-478B-8593-8A91BAE25520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE760EBB-D47F-4D60-B6B7-88A99241A5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE760EBB-D47F-4D60-B6B7-88A99241A5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE760EBB-D47F-4D60-B6B7-88A99241A5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE760EBB-D47F-4D60-B6B7-88A99241A5A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
