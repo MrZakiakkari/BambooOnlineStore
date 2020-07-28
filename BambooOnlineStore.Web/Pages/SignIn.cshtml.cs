@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace BambooOnlineStore.Web.Pages
 {
-	public class IndexModel : PageModel
+	public class SignInModel : PageModel
 	{
 		private readonly ILogger<IndexModel> _logger;
 
-		public IndexModel(ILogger<IndexModel> logger)
+		public SignInModel(ILogger<IndexModel> logger)
 		{
 			_logger = logger;
 		}
