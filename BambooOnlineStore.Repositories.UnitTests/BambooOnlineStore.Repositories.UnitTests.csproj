@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <UserSecretsId>b581c22e-612e-4061-954d-6751f11bf2b8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BambooOnlineStore.Repositories.MySQL\BambooOnlineStore.Repositories.MySQL.csproj" />
+    <ProjectReference Include="..\BambooOnlineStore.Repositories.SQLite\BambooOnlineStore.Repositories.SQLite.csproj" />
+    <ProjectReference Include="..\BambooOnlineStore.Repositories.SQLServer\BambooOnlineStore.Repositories.SQLServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="bambooonlinestore-v1.sqlite3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
